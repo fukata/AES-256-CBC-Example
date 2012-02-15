@@ -15,11 +15,13 @@ This sample, encryption, decryption input and output to the format of the follow
 
 ## Java
 
+	String src = "Hello,CryptWorld";
 	String enc = AESUtil.encrypt(src);
 	String dec = AESUtil.decrypt(enc);
 
 ## Node.js
 
 	Encrypt = require './encrypt'
+	src = 'Hello,CryptWorld'
 	enc = Encrypt.encrypt src
 	dec = Encrypt.decrypt enc
